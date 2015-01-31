@@ -4,7 +4,16 @@
   "repository": "https://github.com/exercism/xplsql",
   "active": false,
   "problems": [
-
+    "hamming",
+    "gigasecond",
+    "rna-transcription",
+    "raindrops",
+    "difference-of-squares",
+    "roman-numerals",
+    "nth-prime",
+    "leap",
+    "grains",
+    "binary"
   ],
   "deprecated": [
 
