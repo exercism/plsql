@@ -2,7 +2,7 @@
   "slug": "xplsql",
   "language": "PL/SQL",
   "repository": "https://github.com/exercism/xplsql",
-  "active": false,
+  "active": true,
   "problems": [
     "hamming",
     "gigasecond",
