@@ -3,6 +3,7 @@
   "language": "PL/SQL",
   "repository": "https://github.com/exercism/xplsql",
   "active": true,
+  "test_pattern": "ut.*plsql",
   "problems": [
     "hamming",
     "gigasecond",
