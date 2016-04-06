@@ -2,7 +2,7 @@
 
 Go through the setup instructions for PL/SQL to get ready to code:
 
-http://help.exercism.io/getting-started-with-plsql.html
+http://exercism.io/languages/plsql
 
 ## Running the Tests
 
