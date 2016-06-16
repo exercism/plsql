@@ -20,7 +20,8 @@
 
   ],
   "ignored": [
-    "docs"
+    "docs",
+    "img"
   ],
   "foregone": [
 
