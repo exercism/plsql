@@ -5,6 +5,7 @@
   "active": true,
   "test_pattern": "ut.*plsql",
   "problems": [
+	"hello-world",
     "hamming",
     "gigasecond",
     "rna-transcription",
