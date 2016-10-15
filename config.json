@@ -4,18 +4,6 @@
   "repository": "https://github.com/exercism/xplsql",
   "active": true,
   "test_pattern": "ut.*plsql",
-  "problems": [
-    "hamming",
-    "gigasecond",
-    "rna-transcription",
-    "raindrops",
-    "difference-of-squares",
-    "roman-numerals",
-    "nth-prime",
-    "leap",
-    "grains",
-    "binary"
-  ],
   "deprecated": [
 
   ],
@@ -25,5 +13,57 @@
   ],
   "foregone": [
 
+  ],
+  "exercises": [
+    {
+      "difficulty": 1,
+      "slug": "hamming",
+      "topics": []
+    },
+    {
+      "difficulty": 1,
+      "slug": "gigasecond",
+      "topics": []
+    },
+    {
+      "difficulty": 1,
+      "slug": "rna-transcription",
+      "topics": []
+    },
+    {
+      "difficulty": 1,
+      "slug": "raindrops",
+      "topics": []
+    },
+    {
+      "difficulty": 1,
+      "slug": "difference-of-squares",
+      "topics": []
+    },
+    {
+      "difficulty": 1,
+      "slug": "roman-numerals",
+      "topics": []
+    },
+    {
+      "difficulty": 1,
+      "slug": "nth-prime",
+      "topics": []
+    },
+    {
+      "difficulty": 1,
+      "slug": "leap",
+      "topics": []
+    },
+    {
+      "difficulty": 1,
+      "slug": "grains",
+      "topics": []
+    },
+    {
+      "difficulty": 1,
+      "slug": "binary",
+      "topics": []
+    }
   ]
 }
