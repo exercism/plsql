@@ -1,7 +1,7 @@
 {
   "slug": "plsql",
   "language": "PL/SQL",
-  "repository": "https://github.com/exercism/xplsql",
+  "repository": "https://github.com/exercism/plsql",
   "active": true,
   "test_pattern": "ut.*plsql",
   "deprecated": [
