@@ -4,79 +4,116 @@
   "repository": "https://github.com/exercism/plsql",
   "active": true,
   "test_pattern": "ut.*plsql",
-  "deprecated": [
-
-  ],
   "foregone": [
 
   ],
   "exercises": [
     {
-      "difficulty": 1,
+      "uuid": "b779f211-ecec-45cc-8641-e7cf87ff66ce",
       "slug": "hamming",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
     },
     {
-      "difficulty": 1,
+      "uuid": "6722fe30-30d2-4e99-87de-03b1a6eee0d6",
       "slug": "gigasecond",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
     },
     {
-      "difficulty": 1,
+      "uuid": "eec6c29b-fbbb-48d5-a0e9-4c902281390e",
       "slug": "rna-transcription",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
     },
     {
-      "difficulty": 1,
+      "uuid": "2eaf11fe-e56e-4512-b8af-8fb637582a5e",
       "slug": "raindrops",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
     },
     {
-      "difficulty": 1,
+      "uuid": "f630b17b-59c1-448b-8880-85bb0c72ba5a",
       "slug": "difference-of-squares",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
     },
     {
-      "difficulty": 1,
+      "uuid": "fc75b71e-e3e6-43b2-940b-65c06a6f9bc5",
       "slug": "roman-numerals",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
     },
     {
-      "difficulty": 1,
+      "uuid": "bede5fe0-43bf-4483-9fc3-7030df042515",
       "slug": "nth-prime",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
     },
     {
-      "difficulty": 1,
+      "uuid": "50e2a7c5-3f71-448d-b203-65b7c0e3d6d5",
       "slug": "leap",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
     },
     {
-      "difficulty": 1,
+      "uuid": "1d661c32-c75d-4c0b-bf88-ed0112bb1ab2",
       "slug": "grains",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
     },
     {
-      "difficulty": 1,
+      "uuid": "6277f225-5d28-45f1-b020-9b821150ecfe",
       "slug": "binary",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
