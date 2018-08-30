@@ -1,6 +1,6 @@
 create or replace package series#
 is
-  function square_of_sums (
+  function square_of_sum (
     i_num                                         pls_integer
   ) return number;
   function sum_of_squares (
@@ -14,13 +14,13 @@ end series#;
  
 create or replace package body series#
 is
-  function square_of_sums (
+  function square_of_sum (
     i_num                                         pls_integer
   ) return number
   is
   begin
     return power(i_num * (i_num + 1) / 2, 2);
-  end square_of_sums;
+  end square_of_sum;
   function sum_of_squares (
     i_num                                         pls_integer
   ) return number
