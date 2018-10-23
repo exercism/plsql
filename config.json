@@ -1,7 +1,7 @@
 {
   "language": "PL/SQL",
   "active": true,
-  "blurb": "",
+  "blurb": "PL/SQL is Oracle's procedural extension to the SQL language. Its syntax is heavily influenced by Ada, and its main focus is tight integration with the SQL engine of the Oracle RDBMS.",
   "test_pattern": "ut.*plsql",
   "exercises": [
     {
