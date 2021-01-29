@@ -19,8 +19,6 @@
     {
       "slug": "binary",
       "uuid": "6277f225-5d28-45f1-b020-9b821150ecfe",
-      "core": false,
-      "unlocked_by": null,
       "difficulty": 1,
       "topics": [
         "math"
@@ -29,8 +27,6 @@
     {
       "slug": "difference-of-squares",
       "uuid": "f630b17b-59c1-448b-8880-85bb0c72ba5a",
-      "core": false,
-      "unlocked_by": null,
       "difficulty": 1,
       "topics": [
         "math"
@@ -39,49 +35,36 @@
     {
       "slug": "gigasecond",
       "uuid": "6722fe30-30d2-4e99-87de-03b1a6eee0d6",
-      "core": false,
-      "unlocked_by": null,
       "difficulty": 1,
       "topics": null
     },
     {
       "slug": "grains",
       "uuid": "1d661c32-c75d-4c0b-bf88-ed0112bb1ab2",
-      "core": false,
-      "unlocked_by": null,
       "difficulty": 1,
       "topics": null
     },
     {
       "slug": "hamming",
       "uuid": "b779f211-ecec-45cc-8641-e7cf87ff66ce",
-      "core": false,
-      "unlocked_by": null,
       "difficulty": 1,
       "topics": null
     },
     {
       "slug": "hello-world",
       "uuid": "53156fc9-0945-f080-08a9-ce269bfc9121a5d2c5c",
-      "core": false,
-      "auto_approve": true,
-      "unlocked_by": null,
       "difficulty": 1,
       "topics": null
     },
     {
       "slug": "leap",
       "uuid": "50e2a7c5-3f71-448d-b203-65b7c0e3d6d5",
-      "core": false,
-      "unlocked_by": null,
       "difficulty": 1,
       "topics": null
     },
     {
       "slug": "nth-prime",
       "uuid": "bede5fe0-43bf-4483-9fc3-7030df042515",
-      "core": false,
-      "unlocked_by": null,
       "difficulty": 1,
       "topics": [
         "math"
@@ -90,24 +73,18 @@
     {
       "slug": "raindrops",
       "uuid": "2eaf11fe-e56e-4512-b8af-8fb637582a5e",
-      "core": false,
-      "unlocked_by": null,
       "difficulty": 1,
       "topics": null
     },
     {
       "slug": "rna-transcription",
       "uuid": "eec6c29b-fbbb-48d5-a0e9-4c902281390e",
-      "core": false,
-      "unlocked_by": null,
       "difficulty": 1,
       "topics": null
     },
     {
       "slug": "roman-numerals",
       "uuid": "fc75b71e-e3e6-43b2-940b-65c06a6f9bc5",
-      "core": false,
-      "unlocked_by": null,
       "difficulty": 1,
       "topics": null
     }
