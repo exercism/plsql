@@ -1,5 +1,6 @@
 {
   "language": "PL/SQL",
+  "slug": "plsql",
   "active": true,
   "status": {
     "concept_exercises": false,
