@@ -16,6 +16,7 @@
   },
   "test_pattern": "ut.*plsql",
   "exercises": {
+    "concept": [],
     "practice": [
       {
         "slug": "binary",
