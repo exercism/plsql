@@ -2,6 +2,7 @@
   "language": "PL/SQL",
   "active": true,
   "blurb": "",
+  "version": 3,
   "test_pattern": "ut.*plsql",
   "exercises": [
     {
