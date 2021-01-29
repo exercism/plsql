@@ -15,100 +15,102 @@
     "indent_size": 4
   },
   "test_pattern": "ut.*plsql",
-  "exercises": [
-    {
-      "slug": "binary",
-      "name": "Binary",
-      "uuid": "6277f225-5d28-45f1-b020-9b821150ecfe",
-      "prerequisites": [],
-      "difficulty": 1,
-      "topics": [
-        "math"
-      ]
-    },
-    {
-      "slug": "difference-of-squares",
-      "name": "Difference Of Squares",
-      "uuid": "f630b17b-59c1-448b-8880-85bb0c72ba5a",
-      "prerequisites": [],
-      "difficulty": 1,
-      "topics": [
-        "math"
-      ]
-    },
-    {
-      "slug": "gigasecond",
-      "name": "Gigasecond",
-      "uuid": "6722fe30-30d2-4e99-87de-03b1a6eee0d6",
-      "prerequisites": [],
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "grains",
-      "name": "Grains",
-      "uuid": "1d661c32-c75d-4c0b-bf88-ed0112bb1ab2",
-      "prerequisites": [],
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "hamming",
-      "name": "Hamming",
-      "uuid": "b779f211-ecec-45cc-8641-e7cf87ff66ce",
-      "prerequisites": [],
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "hello-world",
-      "name": "Hello World",
-      "uuid": "53156fc9-0945-f080-08a9-ce269bfc9121a5d2c5c",
-      "prerequisites": [],
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "leap",
-      "name": "Leap",
-      "uuid": "50e2a7c5-3f71-448d-b203-65b7c0e3d6d5",
-      "prerequisites": [],
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "nth-prime",
-      "name": "Nth Prime",
-      "uuid": "bede5fe0-43bf-4483-9fc3-7030df042515",
-      "prerequisites": [],
-      "difficulty": 1,
-      "topics": [
-        "math"
-      ]
-    },
-    {
-      "slug": "raindrops",
-      "name": "Raindrops",
-      "uuid": "2eaf11fe-e56e-4512-b8af-8fb637582a5e",
-      "prerequisites": [],
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "rna-transcription",
-      "name": "Rna Transcription",
-      "uuid": "eec6c29b-fbbb-48d5-a0e9-4c902281390e",
-      "prerequisites": [],
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "roman-numerals",
-      "name": "Roman Numerals",
-      "uuid": "fc75b71e-e3e6-43b2-940b-65c06a6f9bc5",
-      "prerequisites": [],
-      "difficulty": 1,
-      "topics": null
-    }
-  ]
+  "exercises": {
+    "practice": [
+      {
+        "slug": "binary",
+        "name": "Binary",
+        "uuid": "6277f225-5d28-45f1-b020-9b821150ecfe",
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "math"
+        ]
+      },
+      {
+        "slug": "difference-of-squares",
+        "name": "Difference Of Squares",
+        "uuid": "f630b17b-59c1-448b-8880-85bb0c72ba5a",
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "math"
+        ]
+      },
+      {
+        "slug": "gigasecond",
+        "name": "Gigasecond",
+        "uuid": "6722fe30-30d2-4e99-87de-03b1a6eee0d6",
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "grains",
+        "name": "Grains",
+        "uuid": "1d661c32-c75d-4c0b-bf88-ed0112bb1ab2",
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "hamming",
+        "name": "Hamming",
+        "uuid": "b779f211-ecec-45cc-8641-e7cf87ff66ce",
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "53156fc9-0945-f080-08a9-ce269bfc9121a5d2c5c",
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "leap",
+        "name": "Leap",
+        "uuid": "50e2a7c5-3f71-448d-b203-65b7c0e3d6d5",
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "nth-prime",
+        "name": "Nth Prime",
+        "uuid": "bede5fe0-43bf-4483-9fc3-7030df042515",
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "math"
+        ]
+      },
+      {
+        "slug": "raindrops",
+        "name": "Raindrops",
+        "uuid": "2eaf11fe-e56e-4512-b8af-8fb637582a5e",
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "rna-transcription",
+        "name": "Rna Transcription",
+        "uuid": "eec6c29b-fbbb-48d5-a0e9-4c902281390e",
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "roman-numerals",
+        "name": "Roman Numerals",
+        "uuid": "fc75b71e-e3e6-43b2-940b-65c06a6f9bc5",
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      }
+    ]
+  }
 }
