@@ -1,4 +1,4 @@
-## Recommended Learning Resources
+# Recommended Learning Resources
 
 Exercism provides exercises and feedback but there are a number of resources
 that can help you get started more smoothely:
