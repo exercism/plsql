@@ -1,0 +1,32 @@
+{
+  "docs": [
+    {
+      "uuid": "963deb57-496e-4a61-98c6-38b0e02305a5",
+      "slug": "installation",
+      "path": "docs/INSTALLATION.md",
+      "title": "Installing PL/SQL locally",
+      "blurb": "Learn how to install PL/SQL locally to solve Exercism's exercises on your own machine"
+    },
+    {
+      "uuid": "e1b31220-3ebc-4aa2-9556-18a48574c551",
+      "slug": "learning",
+      "path": "docs/LEARNING.md",
+      "title": "How to learn PL/SQL",
+      "blurb": "An overview of how to get started from scratch with PL/SQL"
+    },
+    {
+      "uuid": "78c91311-1497-4760-af25-d14e57f34864",
+      "slug": "tests",
+      "path": "docs/TESTS.md",
+      "title": "Testing on the PL/SQL track",
+      "blurb": "Learn how to test your PL/SQL exercises on Exercism"
+    },
+    {
+      "uuid": "abdf7ba3-f034-40c6-8938-b36fa68482e1",
+      "slug": "resources",
+      "path": "docs/RESOURCES.md",
+      "title": "Useful PL/SQL resources",
+      "blurb": "A collection of useful resources to help you master PL/SQL"
+    }
+  ]
+}
