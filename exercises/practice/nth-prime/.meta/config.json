@@ -2,9 +2,15 @@
   "blurb": "Given a number n, determine what the nth prime is.",
   "authors": [],
   "files": {
-    "solution": [],
-    "test": [],
-    "example": []
+    "solution": [
+      "nth_prime#.plsql"
+    ],
+    "test": [
+      "ut_nth_prime#.plsql"
+    ],
+    "example": [
+      "example.plsql"
+    ]
   },
   "source": "A variation on Problem 7 at Project Euler",
   "source_url": "http://projecteuler.net/problem=7"
