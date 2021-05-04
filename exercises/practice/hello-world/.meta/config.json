@@ -3,7 +3,7 @@
   "authors": [],
   "files": {
     "solution": [
-      "hello_world#.plsql"
+      "ut_hello_world#.plsql"
     ],
     "test": [
       "ut_hello_world#.plsql"

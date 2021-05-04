@@ -17,7 +17,7 @@
   "test_pattern": "ut.*plsql",
   "files": {
     "solution": [
-      "%{snake_slug}#.plsql"
+      "ut_%{snake_slug}#.plsql"
     ],
     "test": [
       "ut_%{snake_slug}#.plsql"

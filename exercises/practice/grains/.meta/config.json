@@ -3,7 +3,7 @@
   "authors": [],
   "files": {
     "solution": [
-      "grains#.plsql"
+      "ut_grains#.plsql"
     ],
     "test": [
       "ut_grains#.plsql"

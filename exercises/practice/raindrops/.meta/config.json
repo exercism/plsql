@@ -3,7 +3,7 @@
   "authors": [],
   "files": {
     "solution": [
-      "raindrops#.plsql"
+      "ut_raindrops#.plsql"
     ],
     "test": [
       "ut_raindrops#.plsql"

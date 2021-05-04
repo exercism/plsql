@@ -3,7 +3,7 @@
   "authors": [],
   "files": {
     "solution": [
-      "leap#.plsql"
+      "ut_leap#.plsql"
     ],
     "test": [
       "ut_leap#.plsql"

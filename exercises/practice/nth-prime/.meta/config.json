@@ -3,10 +3,10 @@
   "authors": [],
   "files": {
     "solution": [
-      "nth_prime#.plsql"
+      "ut_prime#.plsql"
     ],
     "test": [
-      "ut_nth_prime#.plsql"
+      "ut_prime#.plsql"
     ],
     "example": [
       "example.plsql"
