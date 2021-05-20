@@ -3,7 +3,7 @@
   "authors": [],
   "files": {
     "solution": [
-      "binary#.plsql"
+      "ut_binary#.plsql"
     ],
     "test": [
       "ut_binary#.plsql"

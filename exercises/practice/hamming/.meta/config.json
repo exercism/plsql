@@ -3,7 +3,7 @@
   "authors": [],
   "files": {
     "solution": [
-      "hamming#.plsql"
+      "ut_hamming#.plsql"
     ],
     "test": [
       "ut_hamming#.plsql"

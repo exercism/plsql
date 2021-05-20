@@ -3,10 +3,10 @@
   "authors": [],
   "files": {
     "solution": [
-      "difference_of_squares#.plsql"
+      "ut_series#.plsql"
     ],
     "test": [
-      "ut_difference_of_squares#.plsql"
+      "ut_series#.plsql"
     ],
     "example": [
       "example.plsql"

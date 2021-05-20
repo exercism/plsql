@@ -3,10 +3,10 @@
   "authors": [],
   "files": {
     "solution": [
-      "roman_numerals#.plsql"
+      "ut_numeral#.plsql"
     ],
     "test": [
-      "ut_roman_numerals#.plsql"
+      "ut_numeral#.plsql"
     ],
     "example": [
       "example.plsql"
