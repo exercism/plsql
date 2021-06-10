@@ -8,7 +8,7 @@
     "representer": false,
     "analyzer": false
   },
-  "blurb": "",
+  "blurb": "PL/SQL extends SQL with procedural elements, like loops, conditions and variables. PL/SQL is designed to work on Oracle DB.",
   "version": 3,
   "online_editor": {
     "indent_style": "space",
