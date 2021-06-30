@@ -1,103 +1,158 @@
 {
   "language": "PL/SQL",
+  "slug": "plsql",
   "active": true,
-  "blurb": "",
+  "status": {
+    "concept_exercises": false,
+    "test_runner": false,
+    "representer": false,
+    "analyzer": false
+  },
+  "blurb": "PL/SQL extends SQL with procedural elements, like loops, conditions and variables. PL/SQL is designed to work on Oracle DB.",
+  "version": 3,
+  "online_editor": {
+    "indent_style": "space",
+    "indent_size": 4,
+    "highlightjs_language": "sql"
+  },
   "test_pattern": "ut.*plsql",
-  "exercises": [
-    {
-      "slug": "hello-world",
-      "uuid": "53156fc9-0945-f080-08a9-ce269bfc9121a5d2c5c",
-      "core": false,
-      "auto_approve": true,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "hamming",
-      "uuid": "b779f211-ecec-45cc-8641-e7cf87ff66ce",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "gigasecond",
-      "uuid": "6722fe30-30d2-4e99-87de-03b1a6eee0d6",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "rna-transcription",
-      "uuid": "eec6c29b-fbbb-48d5-a0e9-4c902281390e",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "raindrops",
-      "uuid": "2eaf11fe-e56e-4512-b8af-8fb637582a5e",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "difference-of-squares",
-      "uuid": "f630b17b-59c1-448b-8880-85bb0c72ba5a",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "math"
-      ]
-    },
-    {
-      "slug": "roman-numerals",
-      "uuid": "fc75b71e-e3e6-43b2-940b-65c06a6f9bc5",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "nth-prime",
-      "uuid": "bede5fe0-43bf-4483-9fc3-7030df042515",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "math"
-      ]
-    },
-    {
-      "slug": "leap",
-      "uuid": "50e2a7c5-3f71-448d-b203-65b7c0e3d6d5",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "grains",
-      "uuid": "1d661c32-c75d-4c0b-bf88-ed0112bb1ab2",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": null
-    },
-    {
-      "slug": "binary",
-      "uuid": "6277f225-5d28-45f1-b020-9b821150ecfe",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "math"
-      ]
-    }
+  "files": {
+    "solution": [
+      "ut_%{snake_slug}#.plsql"
+    ],
+    "test": [
+      "ut_%{snake_slug}#.plsql"
+    ],
+    "example": [
+      "example.plsql"
+    ],
+    "exemplar": [
+      ".meta/exemplar.plsql"
+    ]
+  },
+  "exercises": {
+    "concept": [],
+    "practice": [
+      {
+        "slug": "binary",
+        "name": "Binary",
+        "uuid": "6277f225-5d28-45f1-b020-9b821150ecfe",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "math"
+        ]
+      },
+      {
+        "slug": "difference-of-squares",
+        "name": "Difference Of Squares",
+        "uuid": "f630b17b-59c1-448b-8880-85bb0c72ba5a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "math"
+        ]
+      },
+      {
+        "slug": "gigasecond",
+        "name": "Gigasecond",
+        "uuid": "6722fe30-30d2-4e99-87de-03b1a6eee0d6",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "grains",
+        "name": "Grains",
+        "uuid": "1d661c32-c75d-4c0b-bf88-ed0112bb1ab2",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "hamming",
+        "name": "Hamming",
+        "uuid": "b779f211-ecec-45cc-8641-e7cf87ff66ce",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "7873ac3b-7f9e-45b3-b509-5a9c7dc84130",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "leap",
+        "name": "Leap",
+        "uuid": "50e2a7c5-3f71-448d-b203-65b7c0e3d6d5",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "nth-prime",
+        "name": "Nth Prime",
+        "uuid": "bede5fe0-43bf-4483-9fc3-7030df042515",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "math"
+        ]
+      },
+      {
+        "slug": "raindrops",
+        "name": "Raindrops",
+        "uuid": "2eaf11fe-e56e-4512-b8af-8fb637582a5e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "rna-transcription",
+        "name": "Rna Transcription",
+        "uuid": "eec6c29b-fbbb-48d5-a0e9-4c902281390e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      },
+      {
+        "slug": "roman-numerals",
+        "name": "Roman Numerals",
+        "uuid": "fc75b71e-e3e6-43b2-940b-65c06a6f9bc5",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": null
+      }
+    ]
+  },
+  "concepts": [],
+  "key_features": [],
+  "tags": [
+    "paradigm/declarative",
+    "paradigm/imperative",
+    "paradigm/object_oriented",
+    "paradigm/procedural",
+    "typing/static",
+    "typing/strong",
+    "execution_mode/compiled",
+    "execution_mode/interpreted",
+    "platform/linux",
+    "runtime/language_specific",
+    "used_for/backends"
   ]
 }

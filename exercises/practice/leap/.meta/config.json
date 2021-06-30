@@ -1,0 +1,17 @@
+{
+  "blurb": "Given a year, report if it is a leap year.",
+  "authors": [],
+  "files": {
+    "solution": [
+      "ut_leap#.plsql"
+    ],
+    "test": [
+      "ut_leap#.plsql"
+    ],
+    "example": [
+      "example.plsql"
+    ]
+  },
+  "source": "JavaRanch Cattle Drive, exercise 3",
+  "source_url": "http://www.javaranch.com/leap.jsp"
+}
