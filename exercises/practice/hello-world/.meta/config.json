@@ -1,6 +1,9 @@
 {
   "blurb": "The classical introductory exercise. Just say \"Hello, World!\"",
   "authors": [],
+  "contributors": [
+    "kytrinyx"
+  ],
   "files": {
     "solution": [
       "ut_hello_world#.plsql"
