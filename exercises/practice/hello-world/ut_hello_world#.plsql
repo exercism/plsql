@@ -1,3 +1,20 @@
+CREATE OR REPLACE PACKAGE hello_world# IS
+   FUNCTION hello() 
+      RETURN varchar2;
+
+END hello_world#;
+/
+
+CREATE OR REPLACE PACKAGE BODY hello_world# IS
+   FUNCTION hello() 
+      RETURN varchar2
+   AS
+   BEGIN
+      RETURN 'Goodbye, Mars!';
+   END hello;
+END hello_world#;
+/
+
 CREATE OR REPLACE PACKAGE ut_hello_world#
 IS
    PROCEDURE run;
@@ -32,18 +49,6 @@ IS
          i_descn  => 'no name',
          i_exp    => 'Hello, World!',
          i_act    => hello_world#.hello()
-      );
-      
-      TEST(
-         i_descn  => 'sample name',
-         i_exp    => 'Hello, Alice!',
-         i_act    => hello_world#.hello('Alice')
-      );
-      
-      TEST(
-         i_descn  => 'other sample name',
-         i_exp    => 'Hello, Bob!',
-         i_act    => hello_world#.hello('Bob')
       );
    EXCEPTION
       WHEN others THEN
