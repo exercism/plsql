@@ -15,7 +15,6 @@
     "indent_size": 4,
     "highlightjs_language": "sql"
   },
-  "test_pattern": "ut.*plsql",
   "files": {
     "solution": [
       "ut_%{snake_slug}#.plsql"
