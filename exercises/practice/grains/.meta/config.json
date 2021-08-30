@@ -11,7 +11,7 @@
       "ut_grains#.plsql"
     ],
     "example": [
-      "example.plsql"
+      ".meta/example.plsql"
     ]
   },
   "source": "JavaRanch Cattle Drive, exercise 6",
