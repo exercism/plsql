@@ -11,7 +11,7 @@
       "ut_binary#.plsql"
     ],
     "example": [
-      "example.plsql"
+      ".meta/example.plsql"
     ]
   },
   "source": "All of Computer Science",

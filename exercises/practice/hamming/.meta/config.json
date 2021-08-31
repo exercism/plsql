@@ -11,7 +11,7 @@
       "ut_hamming#.plsql"
     ],
     "example": [
-      "example.plsql"
+      ".meta/example.plsql"
     ]
   },
   "source": "The Calculating Point Mutations problem at Rosalind",

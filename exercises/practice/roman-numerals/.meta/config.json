@@ -11,7 +11,7 @@
       "ut_numeral#.plsql"
     ],
     "example": [
-      "example.plsql"
+      ".meta/example.plsql"
     ]
   },
   "source": "The Roman Numeral Kata",

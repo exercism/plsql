@@ -12,7 +12,7 @@
       "ut_hello_world#.plsql"
     ],
     "example": [
-      "example.plsql"
+      ".meta/example.plsql"
     ]
   },
   "source": "This is an exercise to introduce users to using Exercism",

@@ -11,7 +11,7 @@
       "ut_gigasecond#.plsql"
     ],
     "example": [
-      "example.plsql"
+      ".meta/example.plsql"
     ]
   },
   "source": "Chapter 9 in Chris Pine's online Learn to Program tutorial.",

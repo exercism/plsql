@@ -11,7 +11,7 @@
       "ut_prime#.plsql"
     ],
     "example": [
-      "example.plsql"
+      ".meta/example.plsql"
     ]
   },
   "source": "A variation on Problem 7 at Project Euler",

@@ -11,7 +11,7 @@
       "ut_series#.plsql"
     ],
     "example": [
-      "example.plsql"
+      ".meta/example.plsql"
     ]
   },
   "source": "Problem 6 at Project Euler",
