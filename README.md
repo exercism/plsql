@@ -1,4 +1,4 @@
-# xPL/SQL
+# Exercism PL/SQL Track
 
 Exercism exercises in Oracle PL/SQL
 
