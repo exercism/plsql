@@ -1,5 +1,4 @@
 {
-  "blurb": "The classical introductory exercise. Just say \"Hello, World!\".",
   "authors": [],
   "contributors": [
     "kytrinyx"
@@ -15,6 +14,7 @@
       ".meta/example.plsql"
     ]
   },
+  "blurb": "The classical introductory exercise. Just say \"Hello, World!\".",
   "source": "This is an exercise to introduce users to using Exercism",
   "source_url": "https://en.wikipedia.org/wiki/%22Hello,_world!%22_program"
 }
