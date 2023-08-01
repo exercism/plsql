@@ -140,7 +140,38 @@
     ]
   },
   "concepts": [],
-  "key_features": [],
+  "key_features": [
+    {
+      "title": "Tight SQL integration",
+      "content": "All the declarative power of SQL with the processing power of procedural languages.",
+      "icon": "cross-platform"
+    },
+    {
+      "title": "High performance",
+      "content": "Send statements directly to the database and significantly reduce traffic between app and db code.",
+      "icon": "fast"
+    },
+    {
+      "title": "High productivity",
+      "content": "Compact code for manipulating data. Rich features that save designing and debugging time.",
+      "icon": "productive"
+    },
+    {
+      "title": "Support for OOP",
+      "content": "Full support for object oriented programming and abstract datatypes.",
+      "icon": "general-purpose"
+    },
+    {
+      "title": "Portable",
+      "content": "Run your application on any OS or platform that your database runs on.",
+      "icon": "portable"
+    },
+    {
+      "title": "Manageable and Scalable",
+      "content": "Centralize application processing on the DB server and support thousands of concurrent users easily.",
+      "icon": "web"
+    }
+  ],
   "tags": [
     "paradigm/declarative",
     "paradigm/imperative",
