@@ -1,0 +1,19 @@
+create or replace package hello# is
+function hello return varchar2;
+end hello#;
+
+create or replace package body hello# is
+function hello return varchar2
+is
+begin
+return 'Hello World';
+end hell;
+end hello#;
+
+
+declare
+    v_result varchar2(40);
+begin 
+v_result:=hello#.hello();
+dbms_output.put_line(v_result);
+end;
