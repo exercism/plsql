@@ -13,9 +13,22 @@ jobs:
     name: Ping team
     runs-on: ubuntu-22.04
     steps:
-      - name: Check if user is cross-track maintainers
+      - name: Check if repo is unmaintained
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea
+        id: is-unmaintained
+        with:
+          github-token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
+          script: |
+            const response = await octokit.rest.repos.getAllTopics({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            });
+
+            return response.data.names.includes('unmaintained');
+      - name: Check if user is cross-track maintainer
         uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea
         id: is-cross-track-maintainer
+        if: steps.is-unmaintained.outputs.result == 'true'
         with:
           github-token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
@@ -31,7 +44,7 @@ jobs:
             }).then(response => true)
               .catch(err => false);
       - name: Create comment
-        if: steps.is-cross-track-maintainer.outputs.result == 'false'
+        if: steps.is-unmaintained.outputs.result == 'true' && steps.is-cross-track-maintainer.outputs.result == 'false'
         uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea
         with:
           script: |
