@@ -17,7 +17,7 @@ jobs:
         uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea
         id: is-unmaintained
         with:
-          github-token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
+          # github-token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const response = await github.rest.repos.getAllTopics({
               owner: context.repo.owner,
@@ -30,7 +30,7 @@ jobs:
         id: is-cross-track-maintainer
         if: steps.is-unmaintained.outputs.result == 'true'
         with:
-          github-token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
+          # github-token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             // TODO: decide if we want to comment on bot PRs
             // if (context.actor == 'dependabot[bot]' || context.actor == 'exercism-bot' || context.actor == 'github-actions[bot]') {
