@@ -19,7 +19,7 @@ jobs:
         with:
           github-token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
-            const response = await octokit.rest.repos.getAllTopics({
+            const response = await github.rest.repos.getAllTopics({
               owner: context.repo.owner,
               repo: context.repo.repo,
             });
