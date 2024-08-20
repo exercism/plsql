@@ -30,7 +30,7 @@ jobs:
         id: is-cross-track-maintainer
         if: steps.is-unmaintained.outputs.result == 'true'
         with:
-          # github-token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             // TODO: decide if we want to comment on bot PRs
             // if (context.actor == 'dependabot[bot]' || context.actor == 'exercism-bot' || context.actor == 'github-actions[bot]') {
