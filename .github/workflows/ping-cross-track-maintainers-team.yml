@@ -10,47 +10,7 @@ permissions:
 
 jobs:
   ping:
-    name: Ping team
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Check if repo is unmaintained
-        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea
-        id: is-unmaintained
-        with:
-          # github-token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
-          script: |
-            const response = await github.rest.repos.getAllTopics({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-            });
-
-            return response.data.names.includes('unmaintained');
-      - name: Check if user is cross-track maintainer
-        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea
-        id: is-cross-track-maintainer
-        if: steps.is-unmaintained.outputs.result == 'true'
-        with:
-          github-token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
-          script: |
-            // TODO: decide if we want to comment on bot PRs
-            // if (context.actor == 'dependabot[bot]' || context.actor == 'exercism-bot' || context.actor == 'github-actions[bot]') {
-            //  return true;
-            //}
-
-            return github.rest.teams.getMembershipForUserInOrg({
-              org: context.repo.owner,
-              team_slug: 'cross-track-maintainers',
-              username: context.actor,
-            }).then(response => true)
-              .catch(err => false);
-      - name: Create comment
-        if: steps.is-unmaintained.outputs.result == 'true' && steps.is-cross-track-maintainer.outputs.result == 'false'
-        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea
-        with:
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `This repo is currently unmaintained, which means that it can take longer for your PR to be reviewed.\n\nCC @exercism/cross-track-maintainers.`
-            })
+    if: github.repository_owner == 'exercism' # Stops this job from running on forks
+    uses: exercism/github-actions/.github/workflows/ping-cross-track-maintainers-team.yml@ping-cross-track-maintainers-team
+    secrets:
+      github_membership_token: ${{ secrets.COMMUNITY_CONTRIBUTIONS_WORKFLOW_TOKEN }}
