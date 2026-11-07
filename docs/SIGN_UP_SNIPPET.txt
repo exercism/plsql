@@ -1,0 +1,16 @@
+create or replace function most_common_word(i_text varchar2) return varchar2 is
+  type word_counts is table of pls_integer index by varchar2(100);
+  counts word_counts;
+  word   varchar2(100);
+  best   varchar2(100);
+begin
+  for i in 1 .. regexp_count(i_text, '[^ ]+') loop
+    word := regexp_substr(lower(i_text), '[^ ]+', 1, i);
+    counts(word) := case when counts.exists(word) then counts(word) + 1 else 1 end;
+    if best is null or counts(word) > counts(best) then
+      best := word;
+    end if;
+  end loop;
+  return '"' || best || '" appears ' || counts(best) || ' times';
+end;
+/
